@@ -6,5 +6,5 @@ let button = document.getElementById("changing")
 function change(){
     const randomElement = arr[Math.floor(Math.random() * arr.length)];
     link = `https://wa.me/91${randomElement}`
-    button.href = link
+    window.location.href = link
 }
