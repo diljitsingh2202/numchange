@@ -12,7 +12,7 @@ body, h1, div /* Add other relevant elements */ {
     height: 770px; 
     margin: 0px 0px 0px 0px;
 } */
-.container{
+.container1{
   background-image: url('tab.jpg');
 
   background-size: cover;
