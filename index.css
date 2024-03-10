@@ -110,7 +110,7 @@ body, h1, div /* Add other relevant elements */ {
  .main-container {
     display: flex; /* Use flexbox for layout */
     height: 35vh; /* Make the container take up the full height of the viewport */
-    background-color: rgba(27, 26, 26, 0)
+    background-color: black
 }
 
 /* Style for the unordered list */
