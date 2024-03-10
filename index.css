@@ -5,23 +5,22 @@ body, h1, div /* Add other relevant elements */ {
 
 
 .container1{
-    background-color: #141517;
-    background-image: url('tab.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    min-height: 100vh; 
+    background-color: black;
+    background-size: cover; /* This property ensures the background image covers the entire div */
+    background-position: center; /* Center the background image */
+    height: 770px; /* Set a specific height for the div */
     margin: 0px 0px 0px 0px;
-} 
+}
 
 .heading {
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     color: rgb(193, 163, 98); /* Adding white text color for better visibility on orange background */
     font-family: Arial, sans-serif; /* Optional: Customize the font family */
 }
 
 .sub-heading {
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
     color: rgb(193, 163, 98); /* Adding white text color for better visibility on orange background */
     font-family: Arial, sans-serif; /* Optional: Customize the font family */
@@ -40,6 +39,7 @@ body, h1, div /* Add other relevant elements */ {
     flex: 1; /* Take up half of the available space */
     margin-top: -255px;
 }
+
 @media screen and (min-width: 480px) {
     .text-half {
         margin-top: -110px;
@@ -53,7 +53,7 @@ body, h1, div /* Add other relevant elements */ {
 
 /* Optional: Adjust image width to prevent overflow */
 .image-half img {
-    max-width: 75%; /* Ensure the image does not exceed its container's width */
+    max-width: 55%; /* Ensure the image does not exceed its container's width */
     height: auto; /* Maintain the image's aspect ratio */
 }
 
@@ -102,7 +102,7 @@ body, h1, div /* Add other relevant elements */ {
 
   .left-half {
     flex: 1; /* Take up half of the available space */
-    color: antiquewhite;/* Optional: Add a background color for better visibility */
+    color: rgb(193, 163, 98); /* Optional: Add a background color for better visibility */
     padding: 20px; /* Optional: Add padding for better appearance */
 }
 
@@ -122,7 +122,7 @@ body, h1, div /* Add other relevant elements */ {
 /* Style for the div on the right (half of the screen) */
 .right-half {
     flex: 1; /* Take up half of the available space */
-    color: antiquewhite;/* Optional: Add a background color for better visibility */
+    color: rgb(193, 163, 98); /* Optional: Add a background color for better visibility */
     padding: 20px; /* Optional: Add padding for better appearance */
 }
   
@@ -136,3 +136,5 @@ body, h1, div /* Add other relevant elements */ {
     height: 600px;
     
 } */
+
+    /* background-image: url('C:/Users/dilji/Downloads/tab-image.jpg'); */
