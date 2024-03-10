@@ -125,6 +125,10 @@ body, h1, div /* Add other relevant elements */ {
     color: rgb(193, 163, 98); /* Optional: Add a background color for better visibility */
     padding: 20px; /* Optional: Add padding for better appearance */
 }
+.right-half ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
   
   
   
